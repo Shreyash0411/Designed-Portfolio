@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact me:</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: aquamarine; ">
+    <p>
+        <a href="https://www.instagram.com/shreyash_0411/" target="_blank" style="color: red;"> Instagram</a>  
+        <br>
+        Phone number : 96676*****
+        <br>
+        <a href="https://github.com/Shreyash0411" style="color: red;">Github</a>
+        <!--
+            the dorm tab allows the user to actually make a form in the actual "form format"
+         --> 
+        <form action="mailto:shre786yash@gmail.com" method="post" enctype="text/plain">
+            <!--
+                enctype allows the text which is written in the form to be represented  to the user 
+                in a certain format 
+            -->
+            <label for="name">
+                 User-Name: <input type="text" id="name" name="User-Name">
+            </label>
+            <br>
+            <label for="email-id"> 
+                Email-ID:  <input type="email" name="Email-ID" id="email-id">
+            </label>
+            <br>
+            <label for="userpass">
+                Password: <input type="password" id="userpass">
+            </label>
+            <br>
+            <label for="message">
+                Your Message:
+                <br>
+                <textarea name="your-message" id="message" cols="30" rows="10"></textarea>
+            </label>
+            <br>
+
+            <label for="response">
+                <input type="submit" value="SUBMIT" id="response">
+            </label>
+        </form>
+        <!--
+             the label tag actually connects the form attribute which have similar relationship
+             and it will be useful when leaning javascripts and stuff
+
+             now { for }attribute in the label actually tell what it is for and it should be same as the input [id] 
+        -->
+    </p>
+</body>
+</html>

@@ -1,0 +1,159 @@
+/* Box model is important allows us to manipulate margin border padding and content 
+    margin can be changed in top right bottom and left
+    border can be styled colored size and weight can be manipulated
+    padding can be changed in top right bottom and left
+    content in the box model can also be manipulated either its height and width can be manipualed
+*/
+body
+{
+    background-color: #2C3333; 
+    margin: 0;
+    text-align: center;
+
+}
+
+h1 
+{
+    margin:0 auto 0 auto; 
+    font-size: 5em;
+}
+
+h1, h2
+{
+    font-family:'Dancing Script', cursive ;
+    color: #A5C9CA;
+    
+}
+
+h2
+{
+    font-size: 4em;
+}
+h3,h4,h5
+{
+    font-family: monospace;
+    color: #A5C9CA;
+}
+
+h3
+{
+    font-size: 3.25em;
+}
+
+h4{
+    font-size: 2.75em;
+}
+
+p
+{
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+    line-height:1.5;
+    color: #E7F6F2;
+}
+.first-div
+{ 
+    position: relative;
+    padding-top: 50px;  
+}
+
+.moon
+{   
+    width: 120px;
+}
+
+
+
+.bottom-div
+{
+    height: 175px;
+    background-color: #395B64;
+}
+
+.bottomCloud 
+{
+    height: 80px;
+    position:absolute;
+    bottom: 550px;
+    left: 200px;
+}
+
+.topCloud
+{
+    height: 80px;
+    position:absolute;
+    top: 110px;
+    right: 200px
+}
+
+.mountain
+{
+    width: 1100px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.skill-row
+{
+    width: 50%;
+    margin: -10px auto 100px auto;   
+    text-align: left;
+}
+.java
+{
+    margin-right: 30px;
+    width: 30%;
+    float: left;
+}
+
+.Web
+{
+    margin: 30px;
+    width: 27%;
+    float: right;
+}
+
+hr
+{
+    margin-top: 20px;
+    border-style: dotted none none none;
+    width: 10%;
+    color: blanchedalmond;
+    border-width: 10px;
+}
+
+.button
+{
+    background-color: #395B64;
+    border-radius: 5px; 
+    width: 100px; 
+    height: 30px;
+    border: none;
+    font-size: 15px;
+    
+}
+
+.span
+{
+
+    margin-left: 50px;
+    margin-right: 90px;
+    
+}
+a{
+    color: blanchedalmond;
+    text-decoration:none;
+}
+
+.profile
+{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.copyright
+{
+    font-size: 1em;
+    padding: 20px;
+
+}
